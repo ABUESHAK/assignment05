@@ -42,8 +42,6 @@ getElement("clear-history").addEventListener("click", function () {
 });
 
 const headerCoin = getElement("coin-count");
-
-
 // Call buttons
 const callButtons = document.getElementsByClassName("call-button");
 for (let button of callButtons) {
